@@ -1,0 +1,1511 @@
+Archive member included because of file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_udivsi3.o)
+                              /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o (__aeabi_uidiv)
+/usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_dvmd_tls.o)
+                              /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Allocating common symbols
+Common symbol       size              file
+
+SCREEN_WIDTH        0x4               /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+s_bWereEnabled      0x1               /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+xBoundUdpSocketsList
+                    0x14              /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+SCREEN_HEIGHT       0x4               /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+framebuffer         0x4               /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+mailbuffer          0x58              /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+xBoundTcpSocketsList
+                    0x14              /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RESERVED         0x0000000000000000 0x0000000000008000 r
+INIT_RAM         0x0000000000008000 0x0000000000008000 xrw
+RAM              0x0000000000010000 0x0000000008000000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/croutine.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/list.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/queue.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/tasks.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/event_groups.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/interrupts.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/gpio.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/MemMang/heap_4.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/startup.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/main.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mailbox.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/trace.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mem.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/uspibind.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/uspilibrary.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcidevice.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciregister.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbconfigparser.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevice.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevicefactory.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbendpoint.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbrequest.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstandardhub.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/devicenameservice.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/macaddress.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/smsc951x.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/string.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/util.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmassdevice.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednper.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschedper.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/keymap.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbkeyboard.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcirootport.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmouse.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednsplit.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbgamepad.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/synchronize.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstring.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+LOAD /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/NetworkInterface.o
+
+.init           0x0000000000008000       0xe0
+ *(.init)
+ .init          0x0000000000008000       0xe0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/startup.o
+                0x0000000000008000                _start
+
+.module_entries
+                0x00000000000080e0        0x0
+                0x00000000000080e0                __module_entries_start = .
+ *(.module_entries)
+ *(.module_entries.*)
+                0x00000000000080e0                __module_entries_end = .
+                0x0000000000000000                __module_entries_size = SIZEOF (.module_entries)
+
+.text           0x0000000000010000    0x2daec
+ *(.text)
+ .text          0x0000000000010000      0x348 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+                0x0000000000010000                pxPortInitialiseStack
+                0x0000000000010240                xPortStartScheduler
+                0x000000000001025c                vPortEndScheduler
+                0x0000000000010270                vTickISR
+ .text          0x0000000000010348      0x388 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+                0x0000000000010348                vPortISRStartFirstTask
+                0x00000000000103e0                vPortYieldProcessor
+                0x0000000000010498                vFreeRTOS_ISR
+                0x0000000000010550                vPortEnterCritical
+                0x0000000000010614                vPortExitCritical
+ .text          0x00000000000106d0      0x914 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/croutine.o
+                0x00000000000106d0                xCoRoutineCreate
+                0x0000000000010870                vCoRoutineAddToDelayedList
+                0x0000000000010cdc                vCoRoutineSchedule
+                0x0000000000010f28                xCoRoutineRemoveFromEventList
+ .text          0x0000000000010fe4      0x360 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/list.o
+                0x0000000000010fe4                vListInitialise
+                0x0000000000011070                vListInitialiseItem
+                0x00000000000110c0                vListInsertEnd
+                0x000000000001117c                vListInsert
+                0x0000000000011278                vListRemove
+ .text          0x0000000000011344     0x10a8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/queue.o
+                0x0000000000011344                xQueueGenericReset
+                0x0000000000011488                xQueueGenericCreate
+                0x0000000000011580                xQueueCreateMutex
+                0x000000000001168c                xQueueCreateCountingSemaphore
+                0x000000000001170c                xQueueGenericSend
+                0x00000000000118e8                xQueueGenericSendFromISR
+                0x00000000000119f4                xQueueGenericReceive
+                0x0000000000011c78                xQueueReceiveFromISR
+                0x0000000000011d88                uxQueueMessagesWaiting
+                0x0000000000011dec                uxQueueMessagesWaitingFromISR
+                0x0000000000011e48                vQueueDelete
+                0x0000000000012290                xQueueIsQueueEmptyFromISR
+                0x0000000000012378                xQueueIsQueueFullFromISR
+ .text          0x00000000000123ec     0x1f08 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/tasks.o
+                0x00000000000123ec                xTaskGenericCreate
+                0x000000000001265c                vTaskDelete
+                0x0000000000012764                vTaskDelayUntil
+                0x0000000000012878                vTaskDelay
+                0x00000000000128f8                uxTaskPriorityGet
+                0x0000000000012950                vTaskPrioritySet
+                0x0000000000012b24                vTaskSuspend
+                0x0000000000012c30                xTaskIsTaskSuspended
+                0x0000000000012cac                vTaskResume
+                0x0000000000012da8                xTaskResumeFromISR
+                0x0000000000012ec8                vTaskStartScheduler
+                0x0000000000012f60                vTaskEndScheduler
+                0x0000000000012f94                vTaskSuspendAll
+                0x0000000000012fc4                xTaskResumeAll
+                0x0000000000013188                xTaskGetTickCount
+                0x00000000000131bc                xTaskGetTickCountFromISR
+                0x00000000000131f4                uxTaskGetNumberOfTasks
+                0x0000000000013218                vTaskIncrementTick
+                0x0000000000013474                vTaskSetApplicationTaskTag
+                0x00000000000134cc                xTaskGetApplicationTaskTag
+                0x0000000000013528                xTaskCallApplicationTaskHook
+                0x00000000000135a4                vTaskSwitchContext
+                0x00000000000136bc                vTaskPlaceOnEventList
+                0x000000000001375c                vTaskPlaceOnUnorderedEventList
+                0x0000000000013844                xTaskRemoveFromEventList
+                0x0000000000013960                xTaskRemoveFromUnorderedEventList
+                0x0000000000013a94                vTaskSetTimeOutState
+                0x0000000000013ad8                xTaskCheckForTimeOut
+                0x0000000000013bd4                vTaskMissedYield
+                0x0000000000014024                xTaskGetCurrentTaskHandle
+                0x0000000000014054                vTaskPriorityInherit
+                0x0000000000014190                vTaskPriorityDisinherit
+                0x0000000000014270                uxTaskResetEventItemValue
+ .text          0x00000000000142f4      0x8dc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/event_groups.o
+                0x00000000000142f4                xEventGroupCreate
+                0x0000000000014374                xEventGroupSync
+                0x0000000000014534                xEventGroupWaitBits
+                0x0000000000014734                xEventGroupClearBits
+                0x00000000000147c0                xEventGroupGetBitsFromISR
+                0x000000000001482c                xEventGroupSetBits
+                0x00000000000149ec                vEventGroupDelete
+                0x0000000000014a7c                vEventGroupSetBitsCallback
+                0x0000000000014ad0                vEventGroupClearBitsCallback
+ .text          0x0000000000014bd0      0x434 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/interrupts.o
+                0x0000000000014c00                irqHandler
+                0x0000000000014d24                InitInterruptController
+                0x0000000000014da4                RegisterInterrupt
+                0x0000000000014e2c                EnableInterrupt
+                0x0000000000014f00                DisableInterrupt
+                0x0000000000014fd4                EnableInterrupts
+                0x0000000000014fec                DisableInterrupts
+ .text          0x0000000000015004      0x778 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/gpio.o
+                0x0000000000015004                SetGpioFunction
+                0x0000000000015108                SetGpioDirection
+                0x0000000000015164                SetGpio
+                0x000000000001521c                ReadGpio
+                0x00000000000152a0                EnableGpioDetect
+                0x00000000000154cc                DisableGpioDetect
+                0x0000000000015700                ClearGpioInterrupt
+ .text          0x000000000001577c      0x540 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/MemMang/heap_4.o
+                0x000000000001577c                pvPortMalloc
+                0x0000000000015950                vPortFree
+                0x00000000000159cc                xPortGetFreeHeapSize
+                0x0000000000015a18                vPortInitialiseBlocks
+ .text          0x0000000000015cbc       0x28 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/startup.o
+                0x0000000000015cd4                PUT32
+                0x0000000000015cdc                GET32
+ .text          0x0000000000015ce4       0xe0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/main.o
+                0x0000000000015ce4                task1
+                0x0000000000015d2c                main
+ .text          0x0000000000015dc4      0x150 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mailbox.o
+                0x0000000000015dc4                mailboxWrite
+                0x0000000000015e60                mailboxRead
+ .text          0x0000000000015f14      0x34c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/trace.o
+                0x0000000000015f14                __cyg_profile_func_enter
+                0x00000000000160ac                __cyg_profile_func_exit
+ .text          0x0000000000016260      0x538 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mem.o
+                0x0000000000016260                memset
+                0x00000000000162f0                memmove
+                0x00000000000163d0                memcpy2
+                0x0000000000016470                memcmp
+                0x000000000001653c                strcpy
+                0x00000000000165c8                strncpy
+                0x000000000001669c                strlen
+                0x000000000001671c                rand
+ .text          0x0000000000016798      0xb18 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+                0x0000000000016798                enablelogging
+                0x00000000000167e0                initFB
+                0x0000000000016a3c                drawPixel
+                0x0000000000016a98                drawRect
+                0x0000000000016b24                drawChar
+                0x0000000000016c54                drawString
+                0x0000000000016cc0                println
+                0x0000000000016ef4                printHex
+                0x00000000000171a0                videotest
+ .text          0x00000000000172b0      0x5e0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/uspibind.o
+                0x00000000000172b0                MsDelay
+                0x0000000000017314                usDelay
+                0x0000000000017370                StartKernelTimer
+                0x00000000000173dc                CancelKernelTimer
+                0x0000000000017430                ConnectInterrupt
+                0x000000000001749c                SetPowerStateOn
+                0x0000000000017594                GetMACAddress
+                0x00000000000176e8                LogWrite
+                0x000000000001771c                uspi_assertion_failed
+                0x000000000001777c                DebugHexdump
+                0x00000000000177d8                malloc
+                0x000000000001783c                free
+ .text          0x0000000000017890     0x1404 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/uspilibrary.o
+                0x0000000000017890                USPiInitialize
+                0x0000000000017c1c                USPiKeyboardAvailable
+                0x0000000000017cac                USPiKeyboardRegisterKeyPressedHandler
+                0x0000000000017d68                USPiKeyboardRegisterShutdownHandler
+                0x0000000000017e24                USPiKeyboardRegisterKeyStatusHandlerRaw
+                0x0000000000017ee0                USPiMouseAvailable
+                0x0000000000017f70                USPiMouseRegisterStatusHandler
+                0x000000000001802c                USPiMassStorageDeviceAvailable
+                0x00000000000180ec                USPiMassStorageDeviceRead
+                0x0000000000018208                USPiMassStorageDeviceWrite
+                0x0000000000018324                USPiMassStorageDeviceGetCapacity
+                0x00000000000183f4                USPiEthernetAvailable
+                0x0000000000018484                USPiGetMACAddress
+                0x0000000000018570                USPiSendFrame
+                0x0000000000018654                USPiReceiveFrame
+                0x0000000000018738                USPiGamePadAvailable
+                0x0000000000018808                USPiGamePadRegisterStatusHandler
+                0x0000000000018900                USPiGamePadGetStatus
+                0x0000000000018a18                USPiDeviceGetInformation
+ .text          0x0000000000018c94     0x3b8c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcidevice.o
+                0x0000000000018c94                DWHCIDevice
+                0x0000000000018d6c                _DWHCIDevice
+                0x0000000000018dc0                DWHCIDeviceInitialize
+                0x0000000000019094                DWHCIDeviceGetDescriptor
+                0x000000000001916c                DWHCIDeviceSetAddress
+                0x0000000000019240                DWHCIDeviceSetConfiguration
+                0x0000000000019314                DWHCIDeviceControlMessage
+                0x0000000000019470                DWHCIDeviceTransfer
+                0x0000000000019554                DWHCIDeviceSubmitBlockingRequest
+                0x000000000001988c                DWHCIDeviceSubmitAsyncRequest
+                0x00000000000199f0                DWHCIDeviceInitCore
+                0x0000000000019d54                DWHCIDeviceInitHost
+                0x000000000001a060                DWHCIDeviceEnableRootPort
+                0x000000000001a1bc                DWHCIDeviceReset
+                0x000000000001a2f8                DWHCIDeviceEnableGlobalInterrupts
+                0x000000000001a3a8                DWHCIDeviceEnableCommonInterrupts
+                0x000000000001a448                DWHCIDeviceEnableHostInterrupts
+                0x000000000001a510                DWHCIDeviceEnableChannelInterrupt
+                0x000000000001a5d8                DWHCIDeviceDisableChannelInterrupt
+                0x000000000001a6a4                DWHCIDeviceFlushTxFIFO
+                0x000000000001a7ac                DWHCIDeviceFlushRxFIFO
+                0x000000000001a888                DWHCIDeviceTransferStage
+                0x000000000001a9cc                DWHCIDeviceCompletionRoutine
+                0x000000000001aa50                DWHCIDeviceTransferStageAsync
+                0x000000000001ac9c                DWHCIDeviceStartTransaction
+                0x000000000001ae50                DWHCIDeviceStartChannel
+                0x000000000001b3f0                DWHCIDeviceChannelInterruptHandler
+                0x000000000001bb94                DWHCIDeviceInterruptHandler
+                0x000000000001bd64                DWHCIDeviceTimerHandler
+                0x000000000001bee8                DWHCIDeviceAllocateChannel
+                0x000000000001bfe0                DWHCIDeviceFreeChannel
+                0x000000000001c0dc                DWHCIDeviceWaitForBit
+                0x000000000001c244                DWHCIDeviceGetPortSpeed
+                0x000000000001c338                DWHCIDeviceOvercurrentDetected
+                0x000000000001c3fc                DWHCIDeviceDisableRootPort
+                0x000000000001c4ac                DWHCIDeviceDumpRegister
+                0x000000000001c55c                DWHCIDeviceDumpStatus
+ .text          0x000000000001c820      0x988 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciregister.o
+                0x000000000001c820                DWHCIRegister
+                0x000000000001c8a4                DWHCIRegister2
+                0x000000000001c938                _DWHCIRegister
+                0x000000000001c9ac                DWHCIRegisterRead
+                0x000000000001ca44                DWHCIRegisterWrite
+                0x000000000001cae8                DWHCIRegisterGet
+                0x000000000001cb88                DWHCIRegisterSet
+                0x000000000001cc0c                DWHCIRegisterIsSet
+                0x000000000001cccc                DWHCIRegisterAnd
+                0x000000000001cd78                DWHCIRegisterOr
+                0x000000000001ce24                DWHCIRegisterClearBit
+                0x000000000001cf00                DWHCIRegisterSetBit
+                0x000000000001cfd8                DWHCIRegisterClearAll
+                0x000000000001d058                DWHCIRegisterSetAll
+                0x000000000001d0d8                DWHCIRegisterDump
+ .text          0x000000000001d1a8     0x1adc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o
+                0x000000000001d1a8                DWHCITransferStageData
+                0x000000000001d724                _DWHCITransferStageData
+                0x000000000001d830                DWHCITransferStageDataTransactionComplete
+                0x000000000001da70                DWHCITransferStageDataSetSplitComplete
+                0x000000000001db10                DWHCITransferStageDataSetState
+                0x000000000001db88                DWHCITransferStageDataGetState
+                0x000000000001dc00                DWHCITransferStageDataSetSubState
+                0x000000000001dc78                DWHCITransferStageDataGetSubState
+                0x000000000001dcf0                DWHCITransferStageDataBeginSplitCycle
+                0x000000000001dd40                DWHCITransferStageDataGetChannelNumber
+                0x000000000001ddb8                DWHCITransferStageDataIsPeriodic
+                0x000000000001de90                DWHCITransferStageDataGetDeviceAddress
+                0x000000000001df40                DWHCITransferStageDataGetEndpointType
+                0x000000000001e054                DWHCITransferStageDataGetEndpointNumber
+                0x000000000001e104                DWHCITransferStageDataGetMaxPacketSize
+                0x000000000001e17c                DWHCITransferStageDataGetSpeed
+                0x000000000001e1f4                DWHCITransferStageDataGetPID
+                0x000000000001e310                DWHCITransferStageDataIsDirectionIn
+                0x000000000001e388                DWHCITransferStageDataIsStatusStage
+                0x000000000001e400                DWHCITransferStageDataGetDMAAddress
+                0x000000000001e4a4                DWHCITransferStageDataGetBytesToTransfer
+                0x000000000001e51c                DWHCITransferStageDataGetPacketsToTransfer
+                0x000000000001e594                DWHCITransferStageDataIsSplit
+                0x000000000001e60c                DWHCITransferStageDataIsSplitComplete
+                0x000000000001e6ac                DWHCITransferStageDataGetHubAddress
+                0x000000000001e784                DWHCITransferStageDataGetHubPortAddress
+                0x000000000001e85c                DWHCITransferStageDataGetSplitPosition
+                0x000000000001e8f8                DWHCITransferStageDataGetStatusMask
+                0x000000000001e9a4                DWHCITransferStageDataGetTransactionStatus
+                0x000000000001ea44                DWHCITransferStageDataIsStageComplete
+                0x000000000001ead0                DWHCITransferStageDataGetResultLen
+                0x000000000001eb6c                DWHCITransferStageDataGetURB
+                0x000000000001ec0c                DWHCITransferStageDataGetFrameScheduler
+ .text          0x000000000001ec84      0x6c0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbconfigparser.o
+                0x000000000001ec84                USBConfigurationParser
+                0x000000000001efe8                _USBConfigurationParser
+                0x000000000001f05c                USBConfigurationParserIsValid
+                0x000000000001f0d4                USBConfigurationParserGetDescriptor
+                0x000000000001f268                USBConfigurationParserError
+ .text          0x000000000001f344     0x1810 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevice.o
+                0x000000000001f344                USBDevice
+                0x000000000001f524                USBDeviceCopy
+                0x000000000001f864                _USBDevice
+                0x000000000001f9d4                USBDeviceInitialize
+                0x0000000000020124                USBDeviceConfigure
+                0x0000000000020264                USBDeviceGetName
+                0x00000000000204ec                USBDeviceGetAddress
+                0x0000000000020564                USBDeviceGetSpeed
+                0x00000000000205dc                USBDeviceGetHubAddress
+                0x0000000000020654                USBDeviceGetHubPortNumber
+                0x00000000000206cc                USBDeviceGetEndpoint0
+                0x000000000002076c                USBDeviceGetHost
+                0x000000000002080c                USBDeviceGetDeviceDescriptor
+                0x00000000000208ac                USBDeviceGetConfigurationDescriptor
+                0x000000000002094c                USBDeviceGetDescriptor
+                0x0000000000020a08                USBDeviceConfigurationError
+                0x0000000000020ab0                USBDeviceSetAddress
+ .text          0x0000000000020b54      0x474 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevicefactory.o
+                0x0000000000020b54                USBDeviceFactoryGetDevice
+                0x0000000000020c78                GetDevice
+ .text          0x0000000000020fc8      0xbc0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbendpoint.o
+                0x0000000000020fc8                USBEndpoint
+                0x00000000000210b0                USBEndpoint2
+                0x0000000000021370                USBEndpointCopy
+                0x0000000000021498                _USBEndpoint
+                0x000000000002150c                USBEndpointGetDevice
+                0x00000000000215ac                USBEndpointGetNumber
+                0x0000000000021624                USBEndpointGetType
+                0x000000000002169c                USBEndpointIsDirectionIn
+                0x0000000000021714                USBEndpointSetMaxPacketSize
+                0x000000000002178c                USBEndpointGetMaxPacketSize
+                0x0000000000021804                USBEndpointGetInterval
+                0x00000000000218a4                USBEndpointGetNextPID
+                0x000000000002195c                USBEndpointSkipPID
+                0x0000000000021aec                USBEndpointResetPID
+ .text          0x0000000000021b88      0x7ec /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbrequest.o
+                0x0000000000021b88                USBRequest
+                0x0000000000021cc8                _USBRequest
+                0x0000000000021d60                USBRequestGetEndpoint
+                0x0000000000021e00                USBRequestSetStatus
+                0x0000000000021e78                USBRequestSetResultLen
+                0x0000000000021ef0                USBRequestGetStatus
+                0x0000000000021f68                USBRequestGetResultLength
+                0x0000000000022008                USBRequestGetSetupData
+                0x00000000000220dc                USBRequestGetBuffer
+                0x000000000002218c                USBRequestGetBufLen
+                0x0000000000022204                USBRequestSetCompletionRoutine
+                0x00000000000222c4                USBRequestCallCompletionRoutine
+ .text          0x0000000000022374     0x149c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstandardhub.o
+                0x0000000000022374                USBStandardHub
+                0x0000000000022464                _USBStandardHub
+                0x00000000000225dc                USBStandardHubInitialize
+                0x000000000002265c                USBStandardHubConfigure
+                0x0000000000022b60                USBStandardHubEnumeratePorts
+                0x0000000000023674                USBStandardHubGetDeviceNames
+ .text          0x0000000000023810      0x520 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/devicenameservice.o
+                0x0000000000023810                DeviceNameService
+                0x00000000000238c0                _DeviceNameService
+                0x00000000000239d8                DeviceNameServiceAddDevice
+                0x0000000000023b60                DeviceNameServiceGetDevice
+                0x0000000000023cb8                DeviceNameServiceGet
+ .text          0x0000000000023d30      0x730 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/macaddress.o
+                0x0000000000023d30                MACAddress
+                0x0000000000023da4                MACAddress2
+                0x0000000000023e1c                _MACAddress
+                0x0000000000023e90                MACAddressIsEqual
+                0x0000000000023f68                MACAddressSet
+                0x000000000002401c                MACAddressSetBroadcast
+                0x00000000000240a8                MACAddressGet
+                0x0000000000024148                MACAddressCopyTo
+                0x0000000000024218                MACAddressIsBroadcast
+                0x00000000000242f8                MACAddressGetSize
+                0x0000000000024348                MACAddressFormat
+ .text          0x0000000000024460     0x10e0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/smsc951x.o
+                0x0000000000024460                SMSC951xDevice
+                0x0000000000024550                _SMSC951xDevice
+                0x0000000000024668                SMSC951xDeviceConfigure
+                0x0000000000024c04                SMSC951xDeviceGetMACAddress
+                0x0000000000024c7c                SMSC951xDeviceSendFrame
+                0x0000000000024e00                SMSC951xDeviceReceiveFrame
+                0x000000000002509c                SMSC951xDeviceWriteReg
+                0x0000000000025180                SMSC951xDeviceReadReg
+                0x0000000000025268                SMSC951xDeviceDumpReg
+                0x0000000000025348                SMSC951xDeviceDumpRegs
+ .text          0x0000000000025540     0x1284 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/string.o
+                0x0000000000025540                String
+                0x00000000000255c0                String2
+                0x0000000000025678                _String
+                0x000000000002570c                StringGet
+                0x00000000000257a0                StringSet
+                0x0000000000025888                StringGetLength
+                0x0000000000025924                StringAppend
+                0x0000000000025a68                StringCompare
+                0x0000000000025af4                StringFind
+                0x0000000000025bd0                StringFormat
+                0x0000000000025c5c                StringFormatV
+                0x0000000000026398                StringPutChar
+                0x000000000002644c                StringPutString
+                0x00000000000264fc                StringReserveSpace
+                0x0000000000026650                ntoa
+ .text          0x00000000000267c4      0x748 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/util.o
+                0x00000000000267c4                uspi_memset
+                0x0000000000026854                uspi_memcpy2
+                0x00000000000268f4                uspi_memcmp
+                0x00000000000269cc                uspi_strlen
+                0x0000000000026a4c                uspi_strcmp
+                0x0000000000026b7c                uspi_strcpy
+                0x0000000000026c18                uspi_strncpy
+                0x0000000000026ce0                uspi_strcat
+                0x0000000000026d9c                uspi_char2int
+                0x0000000000026e14                uspi_le2be16
+                0x0000000000026e8c                uspi_le2be32
+ .text          0x0000000000026f0c     0x14e8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmassdevice.o
+                0x0000000000026f0c                USBBulkOnlyMassStorageDevice
+                0x0000000000026fd8                _USBBulkOnlyMassStorageDevice
+                0x00000000000270c4                USBBulkOnlyMassStorageDeviceConfigure
+                0x00000000000277e4                USBBulkOnlyMassStorageDeviceRead
+                0x00000000000278d4                USBBulkOnlyMassStorageDeviceWrite
+                0x00000000000279c4                USBBulkOnlyMassStorageDeviceSeek
+                0x0000000000027a54                USBBulkOnlyMassStorageDeviceGetCapacity
+                0x0000000000027acc                USBBulkOnlyMassStorageDeviceTryRead
+                0x0000000000027c8c                USBBulkOnlyMassStorageDeviceTryWrite
+                0x0000000000027e48                USBBulkOnlyMassStorageDeviceCommand
+                0x00000000000281dc                USBBulkOnlyMassStorageDeviceReset
+ .text          0x00000000000283f4      0x554 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednper.o
+                0x00000000000283f4                DWHCIFrameSchedulerNonPeriodic
+                0x00000000000284d0                _DWHCIFrameSchedulerNonPeriodic
+                0x000000000002854c                DWHCIFrameSchedulerNonPeriodicStartSplit
+                0x00000000000285c8                DWHCIFrameSchedulerNonPeriodicCompleteSplit
+                0x00000000000286d0                DWHCIFrameSchedulerNonPeriodicTransactionComplete
+                0x00000000000288b4                DWHCIFrameSchedulerNonPeriodicWaitForFrame
+                0x00000000000288f8                DWHCIFrameSchedulerNonPeriodicIsOddFrame
+ .text          0x0000000000028948      0x69c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschedper.o
+                0x0000000000028948                DWHCIFrameSchedulerPeriodic
+                0x0000000000028a30                _DWHCIFrameSchedulerPeriodic
+                0x0000000000028aac                DWHCIFrameSchedulerPeriodicStartSplit
+                0x0000000000028b34                DWHCIFrameSchedulerPeriodicCompleteSplit
+                0x0000000000028c7c                DWHCIFrameSchedulerPeriodicTransactionComplete
+                0x0000000000028e3c                DWHCIFrameSchedulerPeriodicWaitForFrame
+                0x0000000000028f4c                DWHCIFrameSchedulerPeriodicIsOddFrame
+ .text          0x0000000000028fe4      0x7d4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/keymap.o
+                0x0000000000028fe4                KeyMap
+                0x0000000000029088                _KeyMap
+                0x00000000000290cc                KeyMapClearTable
+                0x00000000000291a8                KeyMapSetEntry
+                0x000000000002928c                KeyMapTranslate
+                0x0000000000029514                KeyMapGetString
+                0x00000000000296e8                KeyMapGetLEDStatus
+ .text          0x00000000000297b8      0xf70 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbkeyboard.o
+                0x00000000000297b8                USBKeyboardDevice
+                0x0000000000029900                _CUSBKeyboardDevice
+                0x00000000000299ec                USBKeyboardDeviceConfigure
+                0x0000000000029e18                USBKeyboardDeviceRegisterKeyPressedHandler
+                0x0000000000029eb4                USBKeyboardDeviceRegisterSelectConsoleHandler
+                0x0000000000029f50                USBKeyboardDeviceRegisterShutdownHandler
+                0x0000000000029fec                USBKeyboardDeviceRegisterKeyStatusHandlerRaw
+ .text          0x000000000002a728      0x530 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcirootport.o
+                0x000000000002a728                DWHCIRootPort
+                0x000000000002a7d4                _DWHCIRootPort
+                0x000000000002a884                DWHCIRootPortInitialize
+ .text          0x000000000002ac58      0xa10 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmouse.o
+                0x000000000002ac58                USBMouseDevice
+                0x000000000002ad54                _CUSBMouseDevice
+                0x000000000002ae30                USBMouseDeviceConfigure
+                0x000000000002b25c                USBMouseDeviceRegisterStatusHandler
+ .text          0x000000000002b668      0x3d4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednsplit.o
+                0x000000000002b668                DWHCIFrameSchedulerNoSplit
+                0x000000000002b754                _DWHCIFrameSchedulerNoSplit
+                0x000000000002b798                DWHCIFrameSchedulerNoSplitStartSplit
+                0x000000000002b7f4                DWHCIFrameSchedulerNoSplitCompleteSplit
+                0x000000000002b85c                DWHCIFrameSchedulerNoSplitTransactionComplete
+                0x000000000002b8bc                DWHCIFrameSchedulerNoSplitWaitForFrame
+                0x000000000002b9a4                DWHCIFrameSchedulerNoSplitIsOddFrame
+ .text          0x000000000002ba3c     0x197c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbgamepad.o
+                0x000000000002ba3c                USBGamePadDevice
+                0x000000000002bc6c                _CUSBGamePadDevice
+                0x000000000002c7d0                USBGamePadDeviceConfigure
+                0x000000000002cdc8                USBGamePadDeviceRegisterStatusHandler
+                0x000000000002d174                USBGamePadDeviceGetReport
+ .text          0x000000000002d3b8      0x15c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/synchronize.o
+                0x000000000002d3b8                uspi_EnterCritical
+                0x000000000002d430                uspi_LeaveCritical
+                0x000000000002d4b4                uspi_CleanAndInvalidateDataCacheRange
+ .text          0x000000000002d514      0xd40 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstring.o
+                0x000000000002d514                USBString
+                0x000000000002d610                USBStringCopy
+                0x000000000002d7d4                _USBString
+                0x000000000002d8c8                USBStringGetFromDescriptor
+                0x000000000002de4c                USBStringGet
+                0x000000000002ded0                USBStringGetLanguageID
+ .text          0x000000000002e254      0xe04 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+                0x000000000002e254                eARPProcessPacket
+                0x000000000002e4b4                vARPRefreshCacheEntry
+                0x000000000002e904                eARPGetCacheEntry
+                0x000000000002ebd4                vARPAgeCache
+                0x000000000002ee50                vARPSendGratuitous
+                0x000000000002eea0                FreeRTOS_OutputARPRequest
+                0x000000000002ef20                vARPGenerateRequestPacket
+                0x000000000002f00c                FreeRTOS_ClearARP
+ .text          0x000000000002f058        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+ .text          0x000000000002f058      0x974 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+                0x000000000002f0c8                FreeRTOS_gethostbyname
+                0x000000000002f5d0                ulDNSHandlePacket
+ .text          0x000000000002f9cc     0x2378 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+                0x000000000002fc10                xIsCallingFromIPTask
+                0x0000000000030134                FreeRTOS_NetworkDown
+                0x00000000000301bc                FreeRTOS_NetworkDownFromISR
+                0x0000000000030268                FreeRTOS_GetUDPPayloadBuffer
+                0x0000000000030310                pxDuplicateNetworkBufferWithDescriptor
+                0x00000000000303dc                pxUDPPayloadBuffer_to_NetworkBuffer
+                0x0000000000030480                FreeRTOS_ReleaseUDPPayloadBuffer
+                0x00000000000304d8                FreeRTOS_IPInit
+                0x00000000000307d4                FreeRTOS_GetAddressConfiguration
+                0x00000000000308a4                FreeRTOS_SetAddressConfiguration
+                0x0000000000030974                xSendEventToIPTask
+                0x00000000000309f0                xSendEventStructToIPTask
+                0x0000000000030bac                eConsiderFrameForProcessing
+                0x0000000000030d3c                vIPNetworkUpCalls
+                0x00000000000313b0                usGenerateProtocolChecksum
+                0x0000000000031630                usGenerateChecksum
+                0x00000000000319a0                vReturnEthernetFrame
+                0x0000000000031a38                FreeRTOS_GetIPAddress
+                0x0000000000031a84                FreeRTOS_SetIPAddress
+                0x0000000000031ad8                FreeRTOS_GetGatewayAddress
+                0x0000000000031b24                FreeRTOS_GetDNSServerAddress
+                0x0000000000031b70                FreeRTOS_GetNetmask
+                0x0000000000031bbc                FreeRTOS_GetMACAddress
+                0x0000000000031c04                FreeRTOS_SetNetmask
+                0x0000000000031c58                FreeRTOS_SetGatewayAddress
+                0x0000000000031cac                xIPIsNetworkTaskReady
+                0x0000000000031cf8                FreeRTOS_IsNetworkUp
+ .text          0x0000000000031d44     0x3f80 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+                0x00000000000323a4                vNetworkSocketsInit
+                0x0000000000032594                FreeRTOS_socket
+                0x00000000000327b0                FreeRTOS_recvfrom
+                0x0000000000032a08                FreeRTOS_sendto
+                0x0000000000032c28                FreeRTOS_bind
+                0x0000000000032dbc                vSocketBind
+                0x0000000000032fac                FreeRTOS_closesocket
+                0x0000000000033070                vSocketClose
+                0x00000000000332ec                FreeRTOS_setsockopt
+                0x0000000000033a60                pxUDPSocketLookup
+                0x0000000000033ae8                FreeRTOS_inet_addr
+                0x0000000000033ce4                FreeRTOS_GetLocalAddress
+                0x0000000000033d8c                vWakeUpSocketUser
+                0x0000000000034094                FreeRTOS_connect
+                0x00000000000341e4                FreeRTOS_accept
+                0x00000000000344d4                FreeRTOS_recv
+                0x00000000000348fc                FreeRTOS_get_tx_head
+                0x00000000000349e4                FreeRTOS_send
+                0x0000000000034cbc                FreeRTOS_listen
+                0x0000000000034e4c                FreeRTOS_shutdown
+                0x0000000000034f18                xTCPTimerCheck
+                0x00000000000350f4                pxTCPSocketLookup
+                0x0000000000035224                FreeRTOS_get_rx_buf
+                0x0000000000035430                lTCPAddRxdata
+                0x000000000003557c                FreeRTOS_outstanding
+                0x0000000000035624                FreeRTOS_recvcount
+                0x00000000000356cc                FreeRTOS_GetRemoteAddress
+                0x00000000000357d0                FreeRTOS_maywrite
+                0x00000000000358c4                FreeRTOS_tx_space
+                0x0000000000035970                FreeRTOS_tx_size
+                0x0000000000035a18                FreeRTOS_issocketconnected
+                0x0000000000035abc                FreeRTOS_mss
+                0x0000000000035b3c                FreeRTOS_connstatus
+                0x0000000000035bbc                FreeRTOS_rx_size
+                0x0000000000035c64                FreeRTOS_netstat
+ .text          0x0000000000035cc4      0x76c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+                0x0000000000036034                uxStreamBufferAdd
+                0x0000000000036244                uxStreamBufferGet
+ .text          0x0000000000036430     0x43a4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+                0x0000000000036a84                xTCPSocketCheck
+                0x0000000000037c7c                vTCPStateChange
+                0x0000000000039e34                xProcessReceivedTCPPacket
+                0x000000000003a6a0                xTCPCheckNewClient
+ .text          0x000000000003a7d4     0x23a4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+                0x000000000003ab68                vListInsertGeneric
+                0x000000000003af98                xTCPWindowRxEmpty
+                0x000000000003b230                vTCPWindowDestroy
+                0x000000000003b2fc                vTCPWindowCreate
+                0x000000000003b400                vTCPWindowInit
+                0x000000000003b6fc                lTCPWindowRxCheck
+                0x000000000003bb60                lTCPWindowTxAdd
+                0x000000000003be9c                xTCPWindowTxDone
+                0x000000000003c040                xTCPWindowTxHasData
+                0x000000000003c1d4                ulTCPWindowTxGet
+                0x000000000003ca08                ulTCPWindowTxAck
+                0x000000000003caa0                ulTCPWindowTxSack
+ .text          0x000000000003cb78      0x484 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+                0x000000000003cb78                vProcessGeneratedUDPPacket
+                0x000000000003ce78                xProcessReceivedUDPPacket
+ .text          0x000000000003cffc      0x5c0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+                0x000000000003cffc                xNetworkBuffersInitialise
+                0x000000000003d1c8                pucGetNetworkBuffer
+                0x000000000003d264                vReleaseNetworkBuffer
+                0x000000000003d2c8                pxGetNetworkBufferWithDescriptor
+                0x000000000003d44c                vReleaseNetworkBufferAndDescriptor
+                0x000000000003d524                uxGetNumberOfFreeNetworkBuffers
+                0x000000000003d570                uxGetMinimumFreeNetworkBuffers
+ .text          0x000000000003d5bc      0x418 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/NetworkInterface.o
+                0x000000000003d5bc                ethernetPollTask
+                0x000000000003d874                xNetworkInterfaceInitialise
+                0x000000000003d94c                xNetworkInterfaceOutput
+ .text          0x000000000003d9d4      0x114 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_udivsi3.o)
+                0x000000000003d9d4                __udivsi3
+                0x000000000003d9d4                __aeabi_uidiv
+                0x000000000003dac8                __aeabi_uidivmod
+ .text          0x000000000003dae8        0x4 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_dvmd_tls.o)
+                0x000000000003dae8                __aeabi_ldiv0
+                0x000000000003dae8                __aeabi_idiv0
+
+.rodata         0x000000000003daec     0x3314
+ .rodata        0x000000000003daec        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+ .rodata        0x000000000003daf0        0x8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/tasks.o
+ .rodata        0x000000000003daf8        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/interrupts.o
+ .rodata        0x000000000003dafc        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/gpio.o
+                0x000000000003dafc                pRegs
+ .rodata        0x000000000003db00        0x8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/MemMang/heap_4.o
+ .rodata        0x000000000003db08        0x8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/main.o
+ .rodata        0x000000000003db10      0x25c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+                0x000000000003db10                font
+ .rodata        0x000000000003dd6c       0x40 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/uspibind.o
+ .rodata        0x000000000003ddac      0x184 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/uspilibrary.o
+ .rodata        0x000000000003df30      0x62c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcidevice.o
+ .rodata        0x000000000003e55c       0xf4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciregister.o
+ .rodata        0x000000000003e650      0x230 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o
+ .rodata        0x000000000003e880      0x108 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbconfigparser.o
+ .rodata        0x000000000003e988      0x358 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevice.o
+ .rodata        0x000000000003ece0      0x10c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevicefactory.o
+ .rodata        0x000000000003edec      0x1e8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbendpoint.o
+ .rodata        0x000000000003efd4      0x154 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbrequest.o
+ .rodata        0x000000000003f128      0x3dc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstandardhub.o
+ .rodata        0x000000000003f504      0x10c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/devicenameservice.o
+ .rodata        0x000000000003f610       0xd8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/macaddress.o
+ .rodata        0x000000000003f6e8      0x2dc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/smsc951x.o
+ .rodata        0x000000000003f9c4       0x78 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/string.o
+ .rodata        0x000000000003fa3c      0x314 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmassdevice.o
+ .rodata        0x000000000003fd50       0xc4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednper.o
+ .rodata        0x000000000003fe14       0xc4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschedper.o
+ .rodata        0x000000000003fed8      0x2d4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/keymap.o
+ .rodata        0x00000000000401ac      0x1f8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbkeyboard.o
+ .rodata        0x00000000000403a4      0x15c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcirootport.o
+ .rodata        0x0000000000040500      0x194 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmouse.o
+ .rodata        0x0000000000040694       0x88 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednsplit.o
+ .rodata        0x000000000004071c      0x1b8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbgamepad.o
+ .rodata        0x00000000000408d4       0x84 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/synchronize.o
+ .rodata        0x0000000000040958      0x1b0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstring.o
+ .rodata        0x0000000000040b08       0x28 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+ .rodata        0x0000000000040b30        0xc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+ .rodata        0x0000000000040b3c       0xc4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+                0x0000000000040b3c                xBroadcastMACAddress
+ .rodata        0x0000000000040c00       0xe8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+ .rodata        0x0000000000040ce8       0xb0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+ .rodata        0x0000000000040d98        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+                0x0000000000040d98                xBufferAllocFixedSize
+ .rodata        0x0000000000040d9c       0x64 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/NetworkInterface.o
+
+.glue_7         0x0000000000040e00        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x0000000000040e00        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000040e00        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000000040e00        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x0000000000040e00        0x0
+ .iplt          0x0000000000000000        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+
+.rel.dyn        0x0000000000040e00        0x0
+ .rel.iplt      0x0000000000000000        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+
+.data           0x0000000000040e00      0x14c
+ *(.data)
+ .data          0x0000000000040e00        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+ .data          0x0000000000040e00        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+                0x0000000000040e00                ulCriticalNesting
+ .data          0x0000000000040e04        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/croutine.o
+ .data          0x0000000000040e04        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/list.o
+ .data          0x0000000000040e04        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/queue.o
+ .data          0x0000000000040e04        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/tasks.o
+ .data          0x0000000000040e08        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/event_groups.o
+ .data          0x0000000000040e08        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/interrupts.o
+ .data          0x0000000000040e08        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/gpio.o
+ .data          0x0000000000040e08        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/MemMang/heap_4.o
+ .data          0x0000000000040e0c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/startup.o
+ .data          0x0000000000040e0c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/main.o
+ .data          0x0000000000040e0c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mailbox.o
+ .data          0x0000000000040e0c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/trace.o
+ .data          0x0000000000040e0c        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mem.o
+                0x0000000000040e0c                next
+ .data          0x0000000000040e10        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+ .data          0x0000000000040e10        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/uspibind.o
+ .data          0x0000000000040e10        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/uspilibrary.o
+ .data          0x0000000000040e10        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcidevice.o
+ .data          0x0000000000040e10        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciregister.o
+ .data          0x0000000000040e10        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o
+ .data          0x0000000000040e10        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbconfigparser.o
+ .data          0x0000000000040e10        0x1 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevice.o
+ .data          0x0000000000040e11        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevicefactory.o
+ .data          0x0000000000040e11        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbendpoint.o
+ .data          0x0000000000040e11        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbrequest.o
+ .data          0x0000000000040e11        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstandardhub.o
+ .data          0x0000000000040e11        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/devicenameservice.o
+ .data          0x0000000000040e11        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/macaddress.o
+ .data          0x0000000000040e11        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/smsc951x.o
+ .data          0x0000000000040e11        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/string.o
+ .data          0x0000000000040e11        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/util.o
+ *fill*         0x0000000000040e11        0x3 
+ .data          0x0000000000040e14        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmassdevice.o
+ .data          0x0000000000040e18        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednper.o
+ .data          0x0000000000040e18        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschedper.o
+ .data          0x0000000000040e18       0xcc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/keymap.o
+ .data          0x0000000000040ee4        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbkeyboard.o
+ .data          0x0000000000040ee8        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcirootport.o
+ .data          0x0000000000040ee8        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmouse.o
+ .data          0x0000000000040eec        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednsplit.o
+ .data          0x0000000000040eec       0x3c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbgamepad.o
+ .data          0x0000000000040f28        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/synchronize.o
+ .data          0x0000000000040f28        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstring.o
+ .data          0x0000000000040f28        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+ .data          0x0000000000040f28        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+ .data          0x0000000000040f28        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+ .data          0x0000000000040f28        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+ .data          0x0000000000040f28        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+ .data          0x0000000000040f2c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+ .data          0x0000000000040f2c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+ .data          0x0000000000040f2c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+ .data          0x0000000000040f2c       0x18 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+                0x0000000000040f2c                xDefaultPartUDPPacketHeader
+ .data          0x0000000000040f44        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+ .data          0x0000000000040f44        0x8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/NetworkInterface.o
+ .data          0x0000000000040f4c        0x0 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_udivsi3.o)
+ .data          0x0000000000040f4c        0x0 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_dvmd_tls.o)
+
+.igot.plt       0x0000000000040f4c        0x0
+ .igot.plt      0x0000000000000000        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+
+.bss            0x0000000000040f50     0xac30
+                0x0000000000040f50                __bss_start = .
+ *(.bss)
+ .bss           0x0000000000040f50        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+ .bss           0x0000000000040f50        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+                0x0000000000040f50                g_bStarted
+ .bss           0x0000000000040f54       0x80 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/croutine.o
+                0x0000000000040fc0                pxCurrentCoRoutine
+ .bss           0x0000000000040fd4        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/list.o
+ .bss           0x0000000000040fd4        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/queue.o
+ .bss           0x0000000000040fd4      0x100 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/tasks.o
+                0x0000000000040fd4                pxCurrentTCB
+ .bss           0x00000000000410d4        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/event_groups.o
+ .bss           0x00000000000410d4      0x240 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/interrupts.o
+ .bss           0x0000000000041314        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/gpio.o
+ *fill*         0x0000000000041314        0x4 
+ .bss           0x0000000000041318     0xa010 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/MemMang/heap_4.o
+                0x000000000004b324                allocated
+ .bss           0x000000000004b328        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/startup.o
+ .bss           0x000000000004b328        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/main.o
+ .bss           0x000000000004b328        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mailbox.o
+ .bss           0x000000000004b328        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/trace.o
+                0x000000000004b328                depth
+ .bss           0x000000000004b32c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mem.o
+ .bss           0x000000000004b32c        0xc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+                0x000000000004b32c                loaded
+                0x000000000004b330                position_x
+                0x000000000004b334                position_y
+ .bss           0x000000000004b338        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/uspibind.o
+ .bss           0x000000000004b338        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/uspilibrary.o
+ .bss           0x000000000004b33c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcidevice.o
+ .bss           0x000000000004b33c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciregister.o
+ .bss           0x000000000004b33c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o
+ .bss           0x000000000004b33c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbconfigparser.o
+ .bss           0x000000000004b33c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevice.o
+ .bss           0x000000000004b33c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevicefactory.o
+ .bss           0x000000000004b33c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbendpoint.o
+ .bss           0x000000000004b33c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbrequest.o
+ .bss           0x000000000004b33c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstandardhub.o
+ .bss           0x000000000004b33c        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/devicenameservice.o
+ .bss           0x000000000004b340        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/macaddress.o
+ .bss           0x000000000004b340        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/smsc951x.o
+ .bss           0x000000000004b344        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/string.o
+ .bss           0x000000000004b344        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/util.o
+ .bss           0x000000000004b344        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmassdevice.o
+ .bss           0x000000000004b344        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednper.o
+ .bss           0x000000000004b344        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschedper.o
+ .bss           0x000000000004b344        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/keymap.o
+ .bss           0x000000000004b344        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbkeyboard.o
+ .bss           0x000000000004b344        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcirootport.o
+ .bss           0x000000000004b344        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmouse.o
+ .bss           0x000000000004b344        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednsplit.o
+ .bss           0x000000000004b344        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbgamepad.o
+ .bss           0x000000000004b344        0x8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/synchronize.o
+ .bss           0x000000000004b34c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstring.o
+ .bss           0x000000000004b34c       0x7c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+ .bss           0x000000000004b3c8        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+ .bss           0x000000000004b3c8        0xc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+ .bss           0x000000000004b3d4       0x74 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+                0x000000000004b3d4                xNetworkEventQueue
+                0x000000000004b3d8                uxRxEventCount
+                0x000000000004b3dc                usPacketIdentifier
+                0x000000000004b3e0                xNetworkAddressing
+                0x000000000004b3f4                xDefaultAddressing
+ .bss           0x000000000004b448        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+ .bss           0x000000000004b44c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+ .bss           0x000000000004b44c        0x4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+                0x000000000004b44c                ulNextInitialSequenceNumber
+ .bss           0x000000000004b450       0x1c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+                0x000000000004b468                xTCPWindowLoggingLevel
+ .bss           0x000000000004b46c        0x0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+ .bss           0x000000000004b46c      0x670 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+ .bss           0x000000000004badc        0x8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/NetworkInterface.o
+                0x000000000004badc                xOutputQueue
+ .bss           0x000000000004bae4        0x0 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_udivsi3.o)
+ .bss           0x000000000004bae4        0x0 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_dvmd_tls.o)
+ *(.bss.*)
+                0x000000000004bae4                __bss_end = .
+ COMMON         0x000000000004bae4        0x1 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+                0x000000000004bae4                s_bWereEnabled
+ *fill*         0x000000000004bae5        0xb 
+ COMMON         0x000000000004baf0       0x68 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+                0x000000000004baf0                SCREEN_WIDTH
+                0x000000000004baf4                SCREEN_HEIGHT
+                0x000000000004baf8                framebuffer
+                0x000000000004bb00                mailbuffer
+ COMMON         0x000000000004bb58       0x28 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+                0x000000000004bb58                xBoundUdpSocketsList
+                0x000000000004bb6c                xBoundTcpSocketsList
+                0x0000000008010000                _estack = (ORIGIN (RAM) + 0x8000000)
+LOAD /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a
+LOAD /usr/lib/arm-none-eabi/lib/thumb/libc.a
+OUTPUT(kernel.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000    0x1de24
+ .debug_info    0x0000000000000000      0x1f5 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+ .debug_info    0x00000000000001f5      0x1c4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+ .debug_info    0x00000000000003b9      0x456 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/croutine.o
+ .debug_info    0x000000000000080f      0x274 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/list.o
+ .debug_info    0x0000000000000a83      0x7da /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/queue.o
+ .debug_info    0x000000000000125d      0xe95 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/tasks.o
+ .debug_info    0x00000000000020f2      0x670 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/event_groups.o
+ .debug_info    0x0000000000002762      0x31d /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/interrupts.o
+ .debug_info    0x0000000000002a7f      0x3f3 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/gpio.o
+ .debug_info    0x0000000000002e72      0x2c7 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_info    0x0000000000003139       0xad /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/main.o
+ .debug_info    0x00000000000031e6       0xa8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mailbox.o
+ .debug_info    0x000000000000328e      0x15b /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/trace.o
+ .debug_info    0x00000000000033e9      0x2d9 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mem.o
+ .debug_info    0x00000000000036c2      0x3cc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+ .debug_info    0x0000000000003a8e      0x3f7 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/uspibind.o
+ .debug_info    0x0000000000003e85     0x1588 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/uspilibrary.o
+ .debug_info    0x000000000000540d     0x178c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcidevice.o
+ .debug_info    0x0000000000006b99      0x35b /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciregister.o
+ .debug_info    0x0000000000006ef4      0xfc7 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o
+ .debug_info    0x0000000000007ebb      0x44b /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbconfigparser.o
+ .debug_info    0x0000000000008306      0xe17 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevice.o
+ .debug_info    0x000000000000911d     0x10d0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevicefactory.o
+ .debug_info    0x000000000000a1ed      0x8de /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbendpoint.o
+ .debug_info    0x000000000000aacb      0x965 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbrequest.o
+ .debug_info    0x000000000000b430      0xe4a /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstandardhub.o
+ .debug_info    0x000000000000c27a      0x231 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/devicenameservice.o
+ .debug_info    0x000000000000c4ab      0x332 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/macaddress.o
+ .debug_info    0x000000000000c7dd      0xdc9 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/smsc951x.o
+ .debug_info    0x000000000000d5a6      0x57a /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/string.o
+ .debug_info    0x000000000000db20      0x377 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/util.o
+ .debug_info    0x000000000000de97     0x1440 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmassdevice.o
+ .debug_info    0x000000000000f2d7      0x2f6 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednper.o
+ .debug_info    0x000000000000f5cd      0x368 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschedper.o
+ .debug_info    0x000000000000f935      0x524 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/keymap.o
+ .debug_info    0x000000000000fe59     0x109d /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbkeyboard.o
+ .debug_info    0x0000000000010ef6      0xa4d /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcirootport.o
+ .debug_info    0x0000000000011943      0xbd0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmouse.o
+ .debug_info    0x0000000000012513      0x2f1 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednsplit.o
+ .debug_info    0x0000000000012804     0x10cc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbgamepad.o
+ .debug_info    0x00000000000138d0      0x108 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/synchronize.o
+ .debug_info    0x00000000000139d8      0xb8c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstring.o
+ .debug_info    0x0000000000014564      0x724 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+ .debug_info    0x0000000000014c88       0x7f /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+ .debug_info    0x0000000000014d07      0x5b4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+ .debug_info    0x00000000000152bb     0x1cde /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+ .debug_info    0x0000000000016f99     0x2231 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+ .debug_info    0x00000000000191ca      0x3c3 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+ .debug_info    0x000000000001958d     0x215c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+ .debug_info    0x000000000001b6e9     0x11b3 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+ .debug_info    0x000000000001c89c      0xc64 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+ .debug_info    0x000000000001d500      0x3c0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+ .debug_info    0x000000000001d8c0      0x43c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/NetworkInterface.o
+ .debug_info    0x000000000001dcfc       0x94 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_udivsi3.o)
+ .debug_info    0x000000000001dd90       0x94 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_dvmd_tls.o)
+
+.debug_abbrev   0x0000000000000000     0x48fd
+ .debug_abbrev  0x0000000000000000      0x11f /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+ .debug_abbrev  0x000000000000011f       0xce /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+ .debug_abbrev  0x00000000000001ed      0x17e /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/croutine.o
+ .debug_abbrev  0x000000000000036b       0xbc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/list.o
+ .debug_abbrev  0x0000000000000427      0x140 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/queue.o
+ .debug_abbrev  0x0000000000000567      0x1da /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/tasks.o
+ .debug_abbrev  0x0000000000000741      0x14b /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/event_groups.o
+ .debug_abbrev  0x000000000000088c      0x186 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/interrupts.o
+ .debug_abbrev  0x0000000000000a12      0x115 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/gpio.o
+ .debug_abbrev  0x0000000000000b27      0x1b1 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_abbrev  0x0000000000000cd8       0x69 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/main.o
+ .debug_abbrev  0x0000000000000d41       0x7e /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mailbox.o
+ .debug_abbrev  0x0000000000000dbf       0xa2 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/trace.o
+ .debug_abbrev  0x0000000000000e61       0xd5 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mem.o
+ .debug_abbrev  0x0000000000000f36      0x109 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+ .debug_abbrev  0x000000000000103f      0x122 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/uspibind.o
+ .debug_abbrev  0x0000000000001161      0x1e6 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/uspilibrary.o
+ .debug_abbrev  0x0000000000001347      0x1f8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcidevice.o
+ .debug_abbrev  0x000000000000153f       0xc6 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciregister.o
+ .debug_abbrev  0x0000000000001605      0x1a1 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o
+ .debug_abbrev  0x00000000000017a6       0xf9 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbconfigparser.o
+ .debug_abbrev  0x000000000000189f      0x1d0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevice.o
+ .debug_abbrev  0x0000000000001a6f      0x164 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevicefactory.o
+ .debug_abbrev  0x0000000000001bd3      0x14f /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbendpoint.o
+ .debug_abbrev  0x0000000000001d22      0x147 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbrequest.o
+ .debug_abbrev  0x0000000000001e69      0x193 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstandardhub.o
+ .debug_abbrev  0x0000000000001ffc       0xe1 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/devicenameservice.o
+ .debug_abbrev  0x00000000000020dd       0xf7 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/macaddress.o
+ .debug_abbrev  0x00000000000021d4      0x1c3 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/smsc951x.o
+ .debug_abbrev  0x0000000000002397      0x16a /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/string.o
+ .debug_abbrev  0x0000000000002501       0xc1 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/util.o
+ .debug_abbrev  0x00000000000025c2      0x1ed /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmassdevice.o
+ .debug_abbrev  0x00000000000027af      0x108 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednper.o
+ .debug_abbrev  0x00000000000028b7      0x108 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschedper.o
+ .debug_abbrev  0x00000000000029bf      0x154 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/keymap.o
+ .debug_abbrev  0x0000000000002b13      0x1ea /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbkeyboard.o
+ .debug_abbrev  0x0000000000002cfd      0x145 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcirootport.o
+ .debug_abbrev  0x0000000000002e42      0x180 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmouse.o
+ .debug_abbrev  0x0000000000002fc2       0xf2 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednsplit.o
+ .debug_abbrev  0x00000000000030b4      0x213 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbgamepad.o
+ .debug_abbrev  0x00000000000032c7       0xb0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/synchronize.o
+ .debug_abbrev  0x0000000000003377      0x196 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstring.o
+ .debug_abbrev  0x000000000000350d      0x1e3 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+ .debug_abbrev  0x00000000000036f0       0x3c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+ .debug_abbrev  0x000000000000372c       0xe5 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+ .debug_abbrev  0x0000000000003811      0x2f3 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+ .debug_abbrev  0x0000000000003b04      0x30d /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+ .debug_abbrev  0x0000000000003e11       0xf0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+ .debug_abbrev  0x0000000000003f01      0x303 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+ .debug_abbrev  0x0000000000004204      0x1f6 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+ .debug_abbrev  0x00000000000043fa      0x20f /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+ .debug_abbrev  0x0000000000004609      0x15a /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+ .debug_abbrev  0x0000000000004763      0x172 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/NetworkInterface.o
+ .debug_abbrev  0x00000000000048d5       0x14 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x00000000000048e9       0x14 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_dvmd_tls.o)
+
+.debug_aranges  0x0000000000000000      0x6d8
+ .debug_aranges
+                0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+ .debug_aranges
+                0x0000000000000020       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+ .debug_aranges
+                0x0000000000000040       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/croutine.o
+ .debug_aranges
+                0x0000000000000060       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/list.o
+ .debug_aranges
+                0x0000000000000080       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/queue.o
+ .debug_aranges
+                0x00000000000000a0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/tasks.o
+ .debug_aranges
+                0x00000000000000c0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/event_groups.o
+ .debug_aranges
+                0x00000000000000e0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/interrupts.o
+ .debug_aranges
+                0x0000000000000100       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/gpio.o
+ .debug_aranges
+                0x0000000000000120       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_aranges
+                0x0000000000000140       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/main.o
+ .debug_aranges
+                0x0000000000000160       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mailbox.o
+ .debug_aranges
+                0x0000000000000180       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/trace.o
+ .debug_aranges
+                0x00000000000001a0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mem.o
+ .debug_aranges
+                0x00000000000001c0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+ .debug_aranges
+                0x00000000000001e0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/uspibind.o
+ .debug_aranges
+                0x0000000000000200       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/uspilibrary.o
+ .debug_aranges
+                0x0000000000000220       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcidevice.o
+ .debug_aranges
+                0x0000000000000240       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciregister.o
+ .debug_aranges
+                0x0000000000000260       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o
+ .debug_aranges
+                0x0000000000000280       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbconfigparser.o
+ .debug_aranges
+                0x00000000000002a0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevice.o
+ .debug_aranges
+                0x00000000000002c0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevicefactory.o
+ .debug_aranges
+                0x00000000000002e0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbendpoint.o
+ .debug_aranges
+                0x0000000000000300       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbrequest.o
+ .debug_aranges
+                0x0000000000000320       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstandardhub.o
+ .debug_aranges
+                0x0000000000000340       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/devicenameservice.o
+ .debug_aranges
+                0x0000000000000360       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/macaddress.o
+ .debug_aranges
+                0x0000000000000380       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/smsc951x.o
+ .debug_aranges
+                0x00000000000003a0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/string.o
+ .debug_aranges
+                0x00000000000003c0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/util.o
+ .debug_aranges
+                0x00000000000003e0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmassdevice.o
+ .debug_aranges
+                0x0000000000000400       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednper.o
+ .debug_aranges
+                0x0000000000000420       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschedper.o
+ .debug_aranges
+                0x0000000000000440       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/keymap.o
+ .debug_aranges
+                0x0000000000000460       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbkeyboard.o
+ .debug_aranges
+                0x0000000000000480       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcirootport.o
+ .debug_aranges
+                0x00000000000004a0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmouse.o
+ .debug_aranges
+                0x00000000000004c0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednsplit.o
+ .debug_aranges
+                0x00000000000004e0       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbgamepad.o
+ .debug_aranges
+                0x0000000000000500       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/synchronize.o
+ .debug_aranges
+                0x0000000000000520       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstring.o
+ .debug_aranges
+                0x0000000000000540       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+ .debug_aranges
+                0x0000000000000560       0x18 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+ .debug_aranges
+                0x0000000000000578       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+ .debug_aranges
+                0x0000000000000598       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+ .debug_aranges
+                0x00000000000005b8       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+ .debug_aranges
+                0x00000000000005d8       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+ .debug_aranges
+                0x00000000000005f8       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+ .debug_aranges
+                0x0000000000000618       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+ .debug_aranges
+                0x0000000000000638       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+ .debug_aranges
+                0x0000000000000658       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+ .debug_aranges
+                0x0000000000000678       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/NetworkInterface.o
+ .debug_aranges
+                0x0000000000000698       0x20 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000000000006b8       0x20 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_dvmd_tls.o)
+
+.debug_line     0x0000000000000000     0x9c9e
+ .debug_line    0x0000000000000000      0x16c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+ .debug_line    0x000000000000016c      0x14c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+ .debug_line    0x00000000000002b8      0x26c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/croutine.o
+ .debug_line    0x0000000000000524      0x1bc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/list.o
+ .debug_line    0x00000000000006e0      0x32f /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/queue.o
+ .debug_line    0x0000000000000a0f      0x571 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/tasks.o
+ .debug_line    0x0000000000000f80      0x25d /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/event_groups.o
+ .debug_line    0x00000000000011dd      0x13b /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/interrupts.o
+ .debug_line    0x0000000000001318       0xf5 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/gpio.o
+ .debug_line    0x000000000000140d      0x148 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_line    0x0000000000001555      0x108 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/main.o
+ .debug_line    0x000000000000165d       0xb7 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mailbox.o
+ .debug_line    0x0000000000001714      0x125 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/trace.o
+ .debug_line    0x0000000000001839      0x119 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mem.o
+ .debug_line    0x0000000000001952      0x190 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+ .debug_line    0x0000000000001ae2      0x1f6 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/uspibind.o
+ .debug_line    0x0000000000001cd8      0x4da /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/uspilibrary.o
+ .debug_line    0x00000000000021b2      0x7c8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcidevice.o
+ .debug_line    0x000000000000297a      0x233 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciregister.o
+ .debug_line    0x0000000000002bad      0x4ea /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o
+ .debug_line    0x0000000000003097      0x1e7 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbconfigparser.o
+ .debug_line    0x000000000000327e      0x43f /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevice.o
+ .debug_line    0x00000000000036bd      0x369 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevicefactory.o
+ .debug_line    0x0000000000003a26      0x2b3 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbendpoint.o
+ .debug_line    0x0000000000003cd9      0x263 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbrequest.o
+ .debug_line    0x0000000000003f3c      0x3f9 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstandardhub.o
+ .debug_line    0x0000000000004335      0x1d4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/devicenameservice.o
+ .debug_line    0x0000000000004509      0x1fc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/macaddress.o
+ .debug_line    0x0000000000004705      0x362 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/smsc951x.o
+ .debug_line    0x0000000000004a67      0x33f /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/string.o
+ .debug_line    0x0000000000004da6      0x1d8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/util.o
+ .debug_line    0x0000000000004f7e      0x3ed /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmassdevice.o
+ .debug_line    0x000000000000536b      0x1bf /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednper.o
+ .debug_line    0x000000000000552a      0x210 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschedper.o
+ .debug_line    0x000000000000573a      0x1eb /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/keymap.o
+ .debug_line    0x0000000000005925      0x37d /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbkeyboard.o
+ .debug_line    0x0000000000005ca2      0x24e /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcirootport.o
+ .debug_line    0x0000000000005ef0      0x2d6 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmouse.o
+ .debug_line    0x00000000000061c6      0x1a8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednsplit.o
+ .debug_line    0x000000000000636e      0x4ec /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbgamepad.o
+ .debug_line    0x000000000000685a      0x12d /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/synchronize.o
+ .debug_line    0x0000000000006987      0x36b /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstring.o
+ .debug_line    0x0000000000006cf2      0x383 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+ .debug_line    0x0000000000007075       0xa1 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+ .debug_line    0x0000000000007116      0x351 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+ .debug_line    0x0000000000007467      0x58b /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+ .debug_line    0x00000000000079f2      0x87f /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+ .debug_line    0x0000000000008271      0x20a /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+ .debug_line    0x000000000000847b      0x8a4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+ .debug_line    0x0000000000008d1f      0x57e /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+ .debug_line    0x000000000000929d      0x301 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+ .debug_line    0x000000000000959e      0x341 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+ .debug_line    0x00000000000098df      0x2d4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/NetworkInterface.o
+ .debug_line    0x0000000000009bb3       0x8a /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_udivsi3.o)
+ .debug_line    0x0000000000009c3d       0x61 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_dvmd_tls.o)
+
+.debug_str      0x0000000000000000     0x92f9
+ .debug_str     0x0000000000000000      0x28f /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+                                        0x2dc (size before relaxing)
+ .debug_str     0x000000000000028f      0x121 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+                                        0x275 (size before relaxing)
+ .debug_str     0x00000000000003b0      0x365 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/croutine.o
+                                        0x519 (size before relaxing)
+ .debug_str     0x0000000000000715      0x130 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/list.o
+                                        0x34a (size before relaxing)
+ .debug_str     0x0000000000000845      0x3b2 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/queue.o
+                                        0x643 (size before relaxing)
+ .debug_str     0x0000000000000bf7      0x775 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/tasks.o
+                                        0xae0 (size before relaxing)
+ .debug_str     0x000000000000136c      0x2b1 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/event_groups.o
+                                        0x5bc (size before relaxing)
+ .debug_str     0x000000000000161d      0x1ce /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/interrupts.o
+                                        0x340 (size before relaxing)
+ .debug_str     0x00000000000017eb      0x250 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/gpio.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x0000000000001a3b      0x1ee /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/MemMang/heap_4.o
+                                        0x3b9 (size before relaxing)
+ .debug_str     0x0000000000001c29       0x5b /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/main.o
+                                        0x220 (size before relaxing)
+ .debug_str     0x0000000000001c84       0x8e /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mailbox.o
+                                        0x1b5 (size before relaxing)
+ .debug_str     0x0000000000001d12       0xa7 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/trace.o
+                                        0x1e3 (size before relaxing)
+ .debug_str     0x0000000000001db9       0x6e /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mem.o
+                                        0x20c (size before relaxing)
+ .debug_str     0x0000000000001e27      0x120 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+                                        0x28d (size before relaxing)
+ .debug_str     0x0000000000001f47      0x1a1 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/uspibind.o
+                                        0x3aa (size before relaxing)
+ .debug_str     0x00000000000020e8      0xf89 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/uspilibrary.o
+                                       0x12b4 (size before relaxing)
+ .debug_str     0x0000000000003071      0x69c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcidevice.o
+                                       0x1127 (size before relaxing)
+ .debug_str     0x000000000000370d      0x171 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciregister.o
+                                        0x366 (size before relaxing)
+ .debug_str     0x000000000000387e      0x5e4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o
+                                        0xf6b (size before relaxing)
+ .debug_str     0x0000000000003e62      0x128 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbconfigparser.o
+                                        0x510 (size before relaxing)
+ .debug_str     0x0000000000003f8a      0x26b /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevice.o
+                                        0xc66 (size before relaxing)
+ .debug_str     0x00000000000041f5      0x166 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevicefactory.o
+                                        0xe6f (size before relaxing)
+ .debug_str     0x000000000000435b      0x182 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbendpoint.o
+                                        0x8ab (size before relaxing)
+ .debug_str     0x00000000000044dd      0x16c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbrequest.o
+                                        0x95c (size before relaxing)
+ .debug_str     0x0000000000004649      0x15d /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstandardhub.o
+                                        0xc81 (size before relaxing)
+ .debug_str     0x00000000000047a6       0xd7 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/devicenameservice.o
+                                        0x2db (size before relaxing)
+ .debug_str     0x000000000000487d      0x10f /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/macaddress.o
+                                        0x37f (size before relaxing)
+ .debug_str     0x000000000000498c      0x1c4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/smsc951x.o
+                                        0xc4b (size before relaxing)
+ .debug_str     0x0000000000004b50      0x1c3 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/string.o
+                                        0x420 (size before relaxing)
+ .debug_str     0x0000000000004d13      0x12f /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/util.o
+                                        0x309 (size before relaxing)
+ .debug_str     0x0000000000004e42      0x5bd /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmassdevice.o
+                                       0x1113 (size before relaxing)
+ .debug_str     0x00000000000053ff      0x1d3 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednper.o
+                                        0x48d (size before relaxing)
+ .debug_str     0x00000000000055d2      0x167 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschedper.o
+                                        0x4ba (size before relaxing)
+ .debug_str     0x0000000000005739      0x266 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/keymap.o
+                                        0x66d (size before relaxing)
+ .debug_str     0x000000000000599f      0x22f /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbkeyboard.o
+                                       0x112c (size before relaxing)
+ .debug_str     0x0000000000005bce       0xa2 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcirootport.o
+                                        0xa4d (size before relaxing)
+ .debug_str     0x0000000000005c70       0xf0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmouse.o
+                                        0xb92 (size before relaxing)
+ .debug_str     0x0000000000005d60      0x158 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednsplit.o
+                                        0x426 (size before relaxing)
+ .debug_str     0x0000000000005eb8      0x251 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbgamepad.o
+                                        0xdf0 (size before relaxing)
+ .debug_str     0x0000000000006109       0xa2 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/synchronize.o
+                                        0x28d (size before relaxing)
+ .debug_str     0x00000000000061ab       0xec /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstring.o
+                                        0xab4 (size before relaxing)
+ .debug_str     0x0000000000006297      0x5f0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+                                        0x906 (size before relaxing)
+ .debug_str     0x0000000000006887       0x73 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+                                        0x23b (size before relaxing)
+ .debug_str     0x00000000000068fa      0x2a7 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+                                        0x572 (size before relaxing)
+ .debug_str     0x0000000000006ba1     0x1052 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+                                       0x1932 (size before relaxing)
+ .debug_str     0x0000000000007bf3      0x901 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+                                       0x154e (size before relaxing)
+ .debug_str     0x00000000000084f4       0xff /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+                                        0x3c6 (size before relaxing)
+ .debug_str     0x00000000000085f3      0x4c3 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+                                       0x1422 (size before relaxing)
+ .debug_str     0x0000000000008ab6      0x3e9 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+                                        0x9ca (size before relaxing)
+ .debug_str     0x0000000000008e9f       0xc5 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+                                        0xcb2 (size before relaxing)
+ .debug_str     0x0000000000008f64      0x201 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+                                        0x555 (size before relaxing)
+ .debug_str     0x0000000000009165      0x194 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/NetworkInterface.o
+                                        0x593 (size before relaxing)
+
+.comment        0x0000000000000000       0x1f
+ .comment       0x0000000000000000       0x1f /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+                                         0x20 (size before relaxing)
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/croutine.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/list.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/queue.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/tasks.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/event_groups.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/interrupts.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/gpio.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/MemMang/heap_4.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/main.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mailbox.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/trace.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mem.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/uspibind.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/uspilibrary.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcidevice.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciregister.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbconfigparser.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevice.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevicefactory.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbendpoint.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbrequest.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstandardhub.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/devicenameservice.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/macaddress.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/smsc951x.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/string.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/util.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmassdevice.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednper.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschedper.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/keymap.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbkeyboard.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcirootport.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmouse.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednsplit.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbgamepad.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/synchronize.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstring.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+ .comment       0x0000000000000000       0x20 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/NetworkInterface.o
+
+.ARM.attributes
+                0x0000000000000000       0x33
+ .ARM.attributes
+                0x0000000000000000       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+ .ARM.attributes
+                0x0000000000000033       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+ .ARM.attributes
+                0x0000000000000066       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/croutine.o
+ .ARM.attributes
+                0x0000000000000099       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/list.o
+ .ARM.attributes
+                0x00000000000000cc       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/queue.o
+ .ARM.attributes
+                0x00000000000000ff       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/tasks.o
+ .ARM.attributes
+                0x0000000000000132       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/event_groups.o
+ .ARM.attributes
+                0x0000000000000165       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/interrupts.o
+ .ARM.attributes
+                0x0000000000000198       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/gpio.o
+ .ARM.attributes
+                0x00000000000001cb       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/MemMang/heap_4.o
+ .ARM.attributes
+                0x00000000000001fe       0x18 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/startup.o
+ .ARM.attributes
+                0x0000000000000216       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/main.o
+ .ARM.attributes
+                0x0000000000000249       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mailbox.o
+ .ARM.attributes
+                0x000000000000027c       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/trace.o
+ .ARM.attributes
+                0x00000000000002af       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mem.o
+ .ARM.attributes
+                0x00000000000002e2       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+ .ARM.attributes
+                0x0000000000000315       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/uspibind.o
+ .ARM.attributes
+                0x0000000000000348       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/uspilibrary.o
+ .ARM.attributes
+                0x000000000000037b       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcidevice.o
+ .ARM.attributes
+                0x00000000000003ae       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciregister.o
+ .ARM.attributes
+                0x00000000000003e1       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o
+ .ARM.attributes
+                0x0000000000000414       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbconfigparser.o
+ .ARM.attributes
+                0x0000000000000447       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevice.o
+ .ARM.attributes
+                0x000000000000047a       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevicefactory.o
+ .ARM.attributes
+                0x00000000000004ad       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbendpoint.o
+ .ARM.attributes
+                0x00000000000004e0       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbrequest.o
+ .ARM.attributes
+                0x0000000000000513       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstandardhub.o
+ .ARM.attributes
+                0x0000000000000546       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/devicenameservice.o
+ .ARM.attributes
+                0x0000000000000579       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/macaddress.o
+ .ARM.attributes
+                0x00000000000005ac       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/smsc951x.o
+ .ARM.attributes
+                0x00000000000005df       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/string.o
+ .ARM.attributes
+                0x0000000000000612       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/util.o
+ .ARM.attributes
+                0x0000000000000645       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmassdevice.o
+ .ARM.attributes
+                0x0000000000000678       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednper.o
+ .ARM.attributes
+                0x00000000000006ab       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschedper.o
+ .ARM.attributes
+                0x00000000000006de       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/keymap.o
+ .ARM.attributes
+                0x0000000000000711       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbkeyboard.o
+ .ARM.attributes
+                0x0000000000000744       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcirootport.o
+ .ARM.attributes
+                0x0000000000000777       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmouse.o
+ .ARM.attributes
+                0x00000000000007aa       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednsplit.o
+ .ARM.attributes
+                0x00000000000007dd       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbgamepad.o
+ .ARM.attributes
+                0x0000000000000810       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/synchronize.o
+ .ARM.attributes
+                0x0000000000000843       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstring.o
+ .ARM.attributes
+                0x0000000000000876       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+ .ARM.attributes
+                0x00000000000008a9       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DHCP.o
+ .ARM.attributes
+                0x00000000000008dc       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+ .ARM.attributes
+                0x000000000000090f       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+ .ARM.attributes
+                0x0000000000000942       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+ .ARM.attributes
+                0x0000000000000975       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+ .ARM.attributes
+                0x00000000000009a8       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+ .ARM.attributes
+                0x00000000000009db       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+ .ARM.attributes
+                0x0000000000000a0e       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+ .ARM.attributes
+                0x0000000000000a41       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+ .ARM.attributes
+                0x0000000000000a74       0x33 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/NetworkInterface.o
+ .ARM.attributes
+                0x0000000000000aa7       0x18 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000000000000abf       0x18 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_dvmd_tls.o)
+
+.debug_frame    0x0000000000000000     0x52cc
+ .debug_frame   0x0000000000000000       0x94 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/port.o
+ .debug_frame   0x0000000000000094       0x88 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/GCC/RaspberryPi/portisr.o
+ .debug_frame   0x000000000000011c       0xf0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/croutine.o
+ .debug_frame   0x000000000000020c       0xb0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/list.o
+ .debug_frame   0x00000000000002bc      0x250 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/queue.o
+ .debug_frame   0x000000000000050c      0x460 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/tasks.o
+ .debug_frame   0x000000000000096c      0x150 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/event_groups.o
+ .debug_frame   0x0000000000000abc      0x114 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/interrupts.o
+ .debug_frame   0x0000000000000bd0       0xf0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/gpio.o
+ .debug_frame   0x0000000000000cc0       0xc0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_frame   0x0000000000000d80       0x48 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/main.o
+ .debug_frame   0x0000000000000dc8       0x50 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mailbox.o
+ .debug_frame   0x0000000000000e18       0x58 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Demo/trace.o
+ .debug_frame   0x0000000000000e70      0x118 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/mem.o
+ .debug_frame   0x0000000000000f88      0x110 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/video.o
+ .debug_frame   0x0000000000001098      0x180 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/uspibind.o
+ .debug_frame   0x0000000000001218      0x274 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/uspilibrary.o
+ .debug_frame   0x000000000000148c      0x4b0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcidevice.o
+ .debug_frame   0x000000000000193c      0x1f0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciregister.o
+ .debug_frame   0x0000000000001b2c      0x430 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcixferstagedata.o
+ .debug_frame   0x0000000000001f5c       0xb0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbconfigparser.o
+ .debug_frame   0x000000000000200c      0x230 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevice.o
+ .debug_frame   0x000000000000223c       0x50 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbdevicefactory.o
+ .debug_frame   0x000000000000228c      0x1d0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbendpoint.o
+ .debug_frame   0x000000000000245c      0x190 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbrequest.o
+ .debug_frame   0x00000000000025ec       0xd0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstandardhub.o
+ .debug_frame   0x00000000000026bc       0xb0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/devicenameservice.o
+ .debug_frame   0x000000000000276c      0x170 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/macaddress.o
+ .debug_frame   0x00000000000028dc      0x150 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/smsc951x.o
+ .debug_frame   0x0000000000002a2c      0x1f8 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/string.o
+ .debug_frame   0x0000000000002c24      0x170 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/util.o
+ .debug_frame   0x0000000000002d94      0x17c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmassdevice.o
+ .debug_frame   0x0000000000002f10       0xf0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednper.o
+ .debug_frame   0x0000000000003000       0xf0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschedper.o
+ .debug_frame   0x00000000000030f0       0xf0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/keymap.o
+ .debug_frame   0x00000000000031e0      0x190 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbkeyboard.o
+ .debug_frame   0x0000000000003370       0x70 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhcirootport.o
+ .debug_frame   0x00000000000033e0       0xd4 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbmouse.o
+ .debug_frame   0x00000000000034b4       0xf0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/dwhciframeschednsplit.o
+ .debug_frame   0x00000000000035a4      0x170 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbgamepad.o
+ .debug_frame   0x0000000000003714       0x60 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/synchronize.o
+ .debug_frame   0x0000000000003774       0xdc /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/lan9514/lib/usbstring.o
+ .debug_frame   0x0000000000003850      0x130 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_ARP.o
+ .debug_frame   0x0000000000003980      0x110 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_DNS.o
+ .debug_frame   0x0000000000003a90      0x50c /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_IP.o
+ .debug_frame   0x0000000000003f9c      0x710 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Sockets.o
+ .debug_frame   0x00000000000046ac      0x110 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_Stream_Buffer.o
+ .debug_frame   0x00000000000047bc      0x530 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_IP.o
+ .debug_frame   0x0000000000004cec      0x410 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_TCP_WIN.o
+ .debug_frame   0x00000000000050fc       0x50 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/FreeRTOS_UDP_IP.o
+ .debug_frame   0x000000000000514c       0xf0 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/BufferManagement/BufferAllocation_2.o
+ .debug_frame   0x000000000000523c       0x70 /afs/umich.edu/user/k/b/kbyang/eecs499/RaspberryPi-FreeRTOS-finalworking/build/Drivers/FreeRTOS-Plus-TCP/portable/NetworkInterface.o
+ .debug_frame   0x00000000000052ac       0x20 /usr/lib/gcc/arm-none-eabi/4.8.2/libgcc.a(_udivsi3.o)
